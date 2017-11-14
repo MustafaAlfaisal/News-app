@@ -22,7 +22,7 @@ public class SearchAdapter extends ArrayAdapter<Response> {
     private ArrayList<Response> objects;
 
     public SearchAdapter(MainActivity context, int resource, ArrayList<Response> objects) {
-        super(context, resource);
+        super(context, resource, objects);
         this.resources = resource;
         this.context = context;
         this.objects = objects;
